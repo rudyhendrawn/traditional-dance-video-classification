@@ -1,2 +1,1 @@
-# traditional-dance-video-classification
-Balinese traditional dance video classification - A Pilot Project
+# Traditional Balinese Dance Video Classification - A Pilot Project
