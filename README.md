@@ -1,6 +1,6 @@
 # Balinese Dance Classification
 
-An AI project that use machine learning to classify traditional Balinese dance. The classification method will use _Convolutional Neural Network_ (CNN).
+An AI project that use machine learning to classify traditional Balinese dance. The classification method will use _Convolutional Neural Network_ (CNN). This repository is forked from [rudyhendrawn/traditional-dance-video-classification][url-origin-repo].
 
 ## Installation
 
@@ -43,3 +43,4 @@ For the usage, you can install some extension in your VS Code for Python and Jup
 [url-cuda-toolkit-download]: https://developer.nvidia.com/cuda-downloads
 [url-cudnn-download]: https://developer.nvidia.com/cudnn
 [url-yt-cuda-cudnn-installation]: https://www.youtube.com/watch?v=OEFKlRSd8Ic
+[url-origin-repo]: https://github.com/rudyhendrawn/traditional-dance-video-classification
