@@ -18,17 +18,22 @@ def get_calculated_score(y_true, y_prediction_max):
   return score_accuracy, score_precision, score_recall, score_f1
 
 
-def get_generated_class_names(dataset_dir):
-  class_names = [fpath.split(DS)[-1] for fpath in glob.glob(os.path.join(dataset_dir, "*"))]
+def get_generated_class_names(dataset_dir, data_type):
+  class_names = [fpath.split(DS)[-1] for fpath in glob.glob(os.path.join(
+    dataset_dir, 
+    data_type, 
+    "*"
+  ))]
+
   class_names = sorted(class_names)
 
   return class_names
 
 
-def get_generated_glob_pattern(dataset_dir):
-  glob_pattern = os.path.join(dataset_dir, "{classname}", "*.mp4")
+def get_generated_glob_pattern(dataset_dir, data_type):
+  glob_pattern = os.path.join(dataset_dir, data_type, "{classname}", "*.mp4")
   return glob_pattern
-
+  
 
 def get_populated_y_data(generator, batch_size, model):
   y_prediction = []
