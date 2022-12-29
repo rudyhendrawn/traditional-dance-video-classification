@@ -7,7 +7,7 @@ An AI project that use machine learning to classify traditional Balinese dance. 
 First-thing-first is to clone the repository by following the command below
 
 ```sh
-git clone https://github.com/eternalbeginner/python-balinese-dance-classification.git
+git clone https://github.com/rudyhendrawn/traditional-dance-video-classification.git
 cd python-balinese-dance-classification # to go inside the newly cloned directory
 ```
 
