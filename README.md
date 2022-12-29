@@ -2,7 +2,7 @@
 
 An AI project that use machine learning to classify traditional Balinese dance. We used pretrained model VGG-LSTM and I3D. If you're interested in this project please give star and fork our repository. If you want to use our project for your research please cite our paper at [JANAPATI](https://ejournal.undiksha.ac.id/index.php/janapati/article/view/52598) (Indonesian language)
 
-## Installation
+## Prerequisites
 
 First-thing-first is to clone the repository by following the command below
 
