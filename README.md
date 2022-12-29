@@ -8,7 +8,7 @@ First-thing-first is to clone the repository by following the command below
 
 ```sh
 git clone https://github.com/rudyhendrawn/traditional-dance-video-classification.git
-cd python-balinese-dance-classification # to go inside the newly cloned directory
+cd traditional-dance-video-classification # go to newly cloned directory
 ```
 
 Then, the next step after cloning the repository is to install the neccesary dependencies. You can do that by following the command below
