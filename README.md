@@ -3,7 +3,7 @@
 An AI project that use machine learning to classify traditional Balinese dance. We used pretrained model VGG-LSTM and I3D. If you're interested in this project please give star and fork our repository. If you want to use our project for your research please cite our paper at [JANAPATI](https://ejournal.undiksha.ac.id/index.php/janapati/article/view/52598) (Indonesian language)
 
 ## Prerequisites
-
+----
 First-thing-first is to clone the repository by following the command below
 
 ```sh
@@ -34,7 +34,7 @@ pip install tensorflow
 You can do the CUDA installation if neccesary/needed. You can download the CUDA Toolkit [here][url-cuda-toolkit-download] and cuDNN [here][url-cudnn-download]. Please refer to [this video][url-yt-cuda-cudnn-installation] for installation tutorial.
 
 ## Usage
-
+----
 For the usage, you can install some extension in your VS Code for Python and Jupyter Notebook. Then, run it from there!
 
 - Google Colab compatibility: _Coming Soon_
@@ -44,3 +44,10 @@ For the usage, you can install some extension in your VS Code for Python and Jup
 [url-cudnn-download]: https://developer.nvidia.com/cudnn
 [url-yt-cuda-cudnn-installation]: https://www.youtube.com/watch?v=OEFKlRSd8Ic
 [url-origin-repo]: https://github.com/rudyhendrawn/traditional-dance-video-classification
+
+
+## DOI
+----
+If you use our code, please cite our code.
+
+[![DOI](https://zenodo.org/badge/354216656.svg)](https://zenodo.org/badge/latestdoi/354216656)
